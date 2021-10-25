@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  @font-face {
+    font-family: Metropolis;
+    src: url(/fonte/metropolis.otf);
+  }
+
+  .background{
+    background-color: #222222;
+  }
+
+  .logoImagem{
+      width: 50px;
+  }
+
+  #rodapeCreditos{
+    margin: 0;
+    clear: both;
+    background: #2c2c2c;
+    margin-top: 50px;
+ }
+
+  #rodapeCreditos p{
+    font-family: 'Metropolis', sans-serif;
+    color:#FFFFFF;
+    font-size: medium;
+  }
+
+  #rodapeCreditosNoticia{
+    margin: 0;
+    clear: both;
+    background: #2c2c2c;
+    margin-top: 230px;
+ }
+
+  #rodapeCreditosNoticia p{
+    font-family: 'Metropolis', sans-serif;
+    color:#FFFFFF;
+    font-size: medium;
+  }
+
+  
+  #rodapeCreditosNoticia3{
+    margin: 0;
+    clear: both;
+    background: #2c2c2c;
+    margin-top: 428px;
+ }
+
+  #rodapeCreditosNoticia3 p{
+    font-family: 'Metropolis', sans-serif;
+    color:#FFFFFF;
+    font-size: medium;
+  }
+
+    #rodapeCreditosNoticiaPartesdoPC{
+    margin: 0;
+    clear: both;
+    background: #2c2c2c;
+    margin-top: 320px;
+ }
+
+  #rodapeCreditosNoticiaPartesdoPC p{
+    font-family: 'Metropolis', sans-serif;
+    color:#FFFFFF;
+    font-size: medium;
+  }
+
+  .imagem_header{
+      border-image: 10%;
+      width: 500px;
+      border-radius: 15px;
+      align-items: center;
+  }
+
+  .imagem_noticia{
+    width: 500px;
+    right: 100px;
+    position: absolute;
+    left:820px;
+    border-radius: 15px;
+  }
+
+  .h1 {
+    font-family: 'Metropolis', sans-serif;
+    font-size: 35px;
+    color: #fff;
+  }
+
+  .h4 {
+    font-family: 'Metropolis', sans-serif;
+    font-size: 15px;
+    color: #fff;
+  }
+
+  .h3{
+    font-family: 'Metropolis', sans-serif;
+    font-size: 20px;
+    color: #fff;
+  }
+
+  .h3_Materia{
+    font-family: 'Metropolis', sans-serif;
+    font-size: 20px;
+    position: absolute;
+    left:3%;
+    color: #fff; 
+  }
+
+  .h1_Materia{
+    font-family: 'Metropolis', sans-serif;
+    font-size: 25px;
+    position: absolute;
+    left:3%;
+    color: #fff; 
+  }
+
+  a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  a:hover {
+    opacity: 0.7;
+  }
+  
+  .rodape {
+    font-family: 'Metropolis';
+    list-style: none;
+    display: flex;
+    letter-spacing: 3px;
+    margin-left: 32px;
+  }
+
+  .rodape li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+  }
+
+  .logo {
+    font-family: 'Metropolis';
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    background: #2c2c2c;
+    height: 70px;
+  }
